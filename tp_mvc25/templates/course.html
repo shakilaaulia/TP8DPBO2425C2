@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="bootstrap.min.css" rel="stylesheet">
+
+  <title>Courses</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.php">Courses</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="lecturer.php">Lecturers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="course.php">Courses</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-4">
+    <div class="col-2 my-3">
+      <a class="btn btn-primary" href="course.php?action=add">Add New</a>
+    </div>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>COURSE CODE</th>
+          <th>COURSE NAME</th>
+          <th>CREDIT</th>
+          <th>SEMESTER</th>
+          <th>LECTURER</th>
+          <th>DESCRIPTION</th>
+          <th>ACTIONS</th>
+        </tr>
+      </thead>
+      <tbody>
+        DATA_TABEL
+      </tbody>
+    </table>
+  </div>
+
+  <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
